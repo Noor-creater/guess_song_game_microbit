@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+.gamebg{
+    margin:0px;
+    background-image:url(../img/background2.png);
+    background-position: top center;
+    background-size: cover;
+}
+
+.topcontent{
+    text-align: center;
+    margin: 0px auto 30px auto;
+}
+
+.topcontent h1{
+    color: #ffffff;
+    padding:0;
+    margin:0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.topcontent span {
+    color: greenyellow;
+}
+
+.logobox{
+    text-align: center;
+    padding-top: 60px;
+    
+}
+
+
+
+
+.introtext{
+    height:100%;
+    text-align:center;
+    padding-top:10px;
+    color: #ffffff;
+    text-transform: uppercase;    
+}
+
+.introtext span {
+    color:greenyellow;
+}
+
+
+@font-face {
+    font-family: Optima;
+    src:url(../font/Optima.ttc);
+}
+
+.bottomcontent{
+    margin: 60px auto 0px auto;
+}
+
+.leftmod{
+    padding: 0 10px;
+    text-align: center;
+    margin:10px auto;
+}
+.leftmod1{
+    padding: 20px;
+    background-color:rgba(1,41,123,0.80);
+}
+
+.leftmod1 h3{
+    color: greenyellow;
+    text-transform: uppercase; 
+}
+
+.leftmod1 p {
+    color: #fff;
+    text-align: left;
+    padding: 0 10px;
+}
+
+
+ul {
+    list-style:url(../img/arrowh1.png);
+    list-style-position:outside;
+    margin:10px 0px 0px 0px;
+    text-align: left;
+    padding: 0 10px 0 20px;
+    color: #fff;
+    /* font-size: 18px; */
+}
+
+li{
+    margin-bottom:10px;
+}
+
+.leftmod1 h5{
+    text-align: center; 
+}
+
+a{
+    color:greenyellow;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color:greenyellow;
+}
+
+video{
+    width: 360px;
+}
